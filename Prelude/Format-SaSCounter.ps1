@@ -27,7 +27,6 @@ function Format-SaSCounter {
         $CounterSet
 
     )
-
     process {
         $result = @()
         foreach ( $counter in $CounterSet) {
